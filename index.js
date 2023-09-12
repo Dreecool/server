@@ -17,7 +17,7 @@ const Register = require("./model/register");
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://front-end-chat-nine.vercel.app"],
     methods: ["POST, GET, DELETE, PUT"],
     credentials: true,
   })
